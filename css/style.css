@@ -22,7 +22,7 @@ hr {
     border: dotted #EAD6D1 6px;
     border-bottom: none;
     width: 50px;
-    margin: 100px auto;
+    margin: 55px auto;
 }
 
 .top-container {
@@ -88,6 +88,17 @@ img.profile {
     padding-bottom: 20px;
 }
 
+@media screen and (max-width:876px) {
+    .skill-row {
+        margin: 59px auto 59px auto;
+        text-align: left;
+        line-height: 2;
+        padding-bottom: 20px; 
+        width: 80%;
+    }
+    
+}
+
 .computer-img {
     width: 25%;
     float: left;
@@ -106,10 +117,25 @@ img.profile {
     text-align: left;
 }
 
+@media screen and (max-width:876px) {
+    .intro{
+        width:84%
+    }   
+
+}
+
 .technologies {
     margin: auto;
     padding-inline-start: 270px;
     list-style: disc;
+}
+
+@media screen and (max-width:876px) {
+    .technologies {
+        margin: auto;
+        list-style: disc;
+        padding-inline-start: 0px;
+    }
 }
 
 .btn {
