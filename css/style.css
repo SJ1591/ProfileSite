@@ -8,12 +8,12 @@ body {
 
 h1 {
     margin-top: 0;
-    color: #66BFBF;
+    color: #307676;
 }
 
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #66BFBF;
+    color: #307676;
     font-weight: normal;
     line-height: 2;
 }
@@ -39,7 +39,7 @@ hr {
 
 .bottom-container {
     padding: 20px;
-    background-color: #66BFBF;
+    background-color: aliceblue;
 }
 
 .top-cloud {
@@ -62,7 +62,7 @@ hr {
 }
 
 h3, a {
-    color: #11999E;
+    color:#307676;
 }
 
 .bottom-container a {
@@ -99,7 +99,7 @@ img.profile {
     
 }
 
-.computer-img {
+.computer-img , .mountain-img {
     width: 25%;
     float: left;
     margin-right: 30px;
@@ -126,7 +126,7 @@ img.profile {
 
 .technologies {
     margin: auto;
-    padding-inline-start: 270px;
+    padding-inline-start: 210px;
     list-style: disc;
 }
 
@@ -148,7 +148,7 @@ img.profile {
     -webkit-border-radius: 14;
     -moz-border-radius: 14;
     border-radius: 20px;
-    color: #edfaf9;
+    color:black;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
